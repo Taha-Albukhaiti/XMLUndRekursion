@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schulungsverwaltung>
+	<Konfiguration tagessatz="500" stundensatz="50" waehrung="EUR"/>
+	<Schulungen>
+		<Seminar nummer="123">
+			<Ort>Hamburg</Ort>
+			<Thema>Datenbanken</Thema>
+			<AnzahlTage>3</AnzahlTage>
+		</Seminar>
+		<Seminar nummer="234">
+			<Ort>Kiel</Ort>
+			<Thema>Projektmanagement</Thema>
+			<AnzahlTage>2</AnzahlTage>
+		</Seminar>
+		<Kurs nummer="345">
+			<Ort>Flensburg</Ort>
+			<Thema>Betriebssysteme</Thema>
+			<AnzahlTermine stundenProTermin="2">10</AnzahlTermine>
+		</Kurs>
+	</Schulungen>
+	<Buchungen>
+		<Buchung nummer="1001" schulungRef="123">
+			<Name>Ahrens</Name>
+			<Vorname>Anton</Vorname>
+			<Buchungsdatum>2018-12-13</Buchungsdatum>
+		</Buchung>
+		<Buchung nummer="1002" schulungRef="123">
+			<Name>Behrens</Name>
+			<Vorname>Bernd</Vorname>
+			<Buchungsdatum>2018-11-20</Buchungsdatum>
+		</Buchung>
+		<Buchung nummer="1003" schulungRef="234">
+			<Name>Cehrens</Name>
+			<Vorname>Claudia</Vorname>
+			<Buchungsdatum>2018-12-03</Buchungsdatum>
+		</Buchung>
+		<Buchung nummer="1004" schulungRef="345">
+			<Name>Dehrens</Name>
+			<Vorname>Dörte</Vorname>
+			<Buchungsdatum>2018-12-15</Buchungsdatum>
+		</Buchung>
+	</Buchungen>
+</Schulungsverwaltung>
