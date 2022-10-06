@@ -11,6 +11,9 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
+ *
+ * @author Taha
+ *
  * Erhebt beim Parsen die gewuenschten Statistik-Daten zum XML-Dokument.
  */
 public class SAXStatistikContentHandler extends DefaultHandler {

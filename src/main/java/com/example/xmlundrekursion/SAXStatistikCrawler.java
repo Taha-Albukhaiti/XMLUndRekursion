@@ -9,7 +9,11 @@ import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.SAXException;
 
-
+/**
+ *
+ * @author Taha
+ *
+ */
 public class SAXStatistikCrawler {
 
 	/**

@@ -2,6 +2,7 @@ package com.example.xmlundrekursion;
 
 /** Erstellt XML-Statistiken - nacheinander per SAX und DOM - und gibt sie aus.
  * @author holger
+ * @author Taha
  */
 public class StatistikCrawlerMain {
 

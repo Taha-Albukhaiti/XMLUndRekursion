@@ -3,7 +3,7 @@ package com.example.xmlundrekursion;
 /**
  * Speichert statistische Informationen zu einem XML-Element.
  * @author holger
- *
+ * @author Taha
  */
 public class XMLElementStatistik {
 
